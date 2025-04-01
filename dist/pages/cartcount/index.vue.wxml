@@ -1,0 +1,29 @@
+<import src="/components/count.vue.wxml" />
+<template name="91a65b40">
+  <view class="_div data-v-8ccbc2b0 cartcount-area">
+    <view class="_div data-v-8ccbc2b0 cartcount-area-nodata" wx:if="{{copyCollectlist.length < 1}}">
+      <view class="_p data-v-8ccbc2b0">购物车空空如也～</view>
+      <view class="_div data-v-8ccbc2b0 gocart__btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">再去逛逛吧</view>
+    </view>
+    <view class="_div data-v-8ccbc2b0 cartcount-area-datalist" wx:if="{{copyCollectlist.length >= 1}}">
+      <view class="_div data-v-8ccbc2b0 cartcount-area-datalist-items">
+        <view class="_div data-v-8ccbc2b0 cartcount-area-datalist-items__item" wx:key="index" key="{{index}}" wx:for="{{copyCollectlist}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-8ccbc2b0 item-img">
+            <image class="_image data-v-8ccbc2b0 child_image" src="{{item.img}}"></image>
+          </view>
+          <view class="_div data-v-8ccbc2b0 item-des">
+            <view class="_div data-v-8ccbc2b0 item-name">{{item.name}} </view>
+            <view class="_div data-v-8ccbc2b0 item-price">单价：¥{{item.price}}</view>
+            <view class="_div data-v-8ccbc2b0 del-x" bindtap="handleProxy" data-eventid="{{'1-'+index}}" data-comkey="{{$k}}">删除</view>
+          </view>
+          <label class="_span data-v-8ccbc2b0 itemcount">
+            <template bindcountevent="handleProxy" data-eventid="{{'2-'+index}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0-'+index], $root}}" is="76f880ed"></template>
+          </label>
+        </view>
+      </view>
+      <view class="_div data-v-8ccbc2b0 total-area">计的总价:
+        <label class="_span data-v-8ccbc2b0 totalprice">¥{{countval}}</label>
+      </view>
+    </view>
+  </view>
+</template>

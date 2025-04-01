@@ -1,0 +1,16 @@
+<template name="6f8b113b">
+  <view class="_div data-v-082260fa counter-warp">
+    <view class="_div data-v-082260fa login-area">
+      <view wx:if="{{userInfo === ''}}" class="_div data-v-082260fa">
+        <image class="_img data-v-082260fa login-area-img" src="{{img_head}}" alt="头像"></image>
+      </view>
+      <view wx:if="{{userInfo !== ''}}" class="_div data-v-082260fa">
+        <image class="_img data-v-082260fa login-area-img" src="{{url_img}}" alt="头像"></image>
+      </view>
+      <view class="_div data-v-082260fa login-area-info">
+        <label wx:if="{{userInfo === ''}}" class="_span data-v-082260fa">HI，游客</label>
+        <label wx:if="{{userInfo !== ''}}" class="_span data-v-082260fa">{{userInfo.nickName}}</label>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,12 @@
+<template name="80e8190a">
+  <view class="_div data-v-4befb1c3 bc">
+    <view class="_div data-v-4befb1c3 weui-flex" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-4befb1c3 weui-flex__item discover_list">
+        <navigator url="{{item.url +'?id='+ item.code}}" class="_navigator data-v-4befb1c3 placeholder item" hover-class>
+          <image src="{{item.img}}" class="_img data-v-4befb1c3 discover_img"></image>
+          <view class="_div data-v-4befb1c3 info">{{item.tarname}}: {{item.name}}</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

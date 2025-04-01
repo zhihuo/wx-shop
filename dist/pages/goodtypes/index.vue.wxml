@@ -1,0 +1,27 @@
+<template name="2b82ebe6">
+  <view class="_div data-v-26a85356 pageClass">
+    <view class="_div data-v-26a85356 top_search">
+      <view class="_div data-v-26a85356 search_read_only">
+        <navigator class="_navigator data-v-26a85356 search_content" url="/pages/search/main">
+          <view class="_i data-v-26a85356 iconfont icon-search"></view>
+          <view class="_div data-v-26a85356 search_input">搜索商品</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-26a85356 classify" style=" {{('height:' + (windowHeight - 50 + 'px') + ';')}}">
+      <scroll-view class="_scroll-view data-v-26a85356 classify_catetory" scroll-y scroll-with-animation="true" style=" {{('height:' + (windowHeight - 50 + 'px') + ';')}}">
+        <view wx:key="item" key="{{item}}" bindtap="handleProxy" data-code="{{item.code}}" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{rootcateList}}" wx:for-index="index" wx:for-item="item" class="_view data-v-26a85356 {{item.active ? 'name active' : 'name'}}">
+        {{item.name}} </view>
+      </scroll-view>
+      <scroll-view class="_scroll-view data-v-26a85356 classify_detail" scroll-y scroll-with-animation="true" style=" {{('height:' + (windowHeight - 50 + 'px') + ';')}}">
+        <view class="_view data-v-26a85356 children">
+          <navigator hover-class="none" class="_navigator data-v-26a85356 children_item" for-item="{{item}}" wx:key="index" key="{{index}}" url="{{'/pages/search?cateCode=' + item.code + '&title=' + item.name}}" wx:for="{{childcateList}}" wx:for-index="index"
+            wx:for-item="item">
+            <image class="_image data-v-26a85356 child_image" src="{{item.thumLogo}}"></image>
+            <view class="_view data-v-26a85356 child_name">{{item.name}}</view>
+          </navigator>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</template>

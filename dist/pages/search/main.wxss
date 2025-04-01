@@ -1,0 +1,60 @@
+
+.typelist-area .weui-search-bar.data-v-9433c9b6 {
+  background-color: inherit;
+  border: none;
+  height: 9vh;
+  overflow: hidden;
+}
+.typelist-area .weui-search-bar__form.data-v-9433c9b6 {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  line-height: 6vh;
+}
+.typelist-area .weui-search-bar__input.data-v-9433c9b6 {
+  line-height: 6vh;
+  padding-top: 4rpx;
+}
+.typelist-area .weui-search-bar__btn.data-v-9433c9b6 {
+  width: 160rpx;
+  text-align: center;
+  height: 6vh;
+  line-height: 6vh;
+  background-color: #66aff3;
+  color: #fff;
+  border-bottom-right-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+.typelist-area .weui-grids.data-v-9433c9b6,
+.typelist-area .weui-grid.data-v-9433c9b6 {
+  border: none;
+}
+.typelist-area .weui-grids .child_image.data-v-9433c9b6 {
+  width: 160rpx;
+  height: 160rpx;
+}
+.typelist-area .weui-grid.data-v-9433c9b6 {
+  padding: 10rpx;
+}
+.typelist-area .search-item.data-v-9433c9b6 {
+  margin-top: 2rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  font-size: 32rpx;
+}
+.typelist-area .search-hot-list.data-v-9433c9b6 {
+  padding: 0 24rpx;
+}
+.typelist-area .search-hot-list__item.data-v-9433c9b6 {
+  font-size: 28rpx;
+  position: relative;
+  text-align: center;
+}
+.typelist-area .search-hot-list__item .iconfont.data-v-9433c9b6 {
+  font-size: 80rpx;
+}
+.typelist-area .search-hot-list__name.data-v-9433c9b6 {
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

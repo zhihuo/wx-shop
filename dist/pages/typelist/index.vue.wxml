@@ -1,0 +1,25 @@
+<template name="ef5d1dc6">
+  <view class="_div data-v-ef350856 typelist-area">
+    <view class="_div data-v-ef350856 weui-search-bar" id="searchBar">
+      <form class="_form data-v-ef350856 weui-search-bar__form">
+        <view class="_div data-v-ef350856 weui-search-bar__box">
+          <icon class="_icon data-v-ef350856 weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="search" class="_input data-v-ef350856 weui-search-bar__input" id="searchInput" placeholder="搜索" value="{{keyword}}" bindinput="handleProxy" required data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+        </view>
+      </form>
+    </view>
+    <view wx:key="index" key="{{index}}" wx:for="{{copyfeeds}}" wx:for-index="index" wx:for-item="item" class="_div data-v-ef350856">
+      <view class="_div data-v-ef350856 list" bindtap="handleProxy" data-eventid="{{'1-'+index}}" data-comkey="{{$k}}">
+        <view class="_div data-v-ef350856 view_preinfo">
+          <view class="_div data-v-ef350856 list_preinfo">{{item.CreateDateTime}} / {{item.ArticleAuthor}}</view>
+        </view>
+        <view class="_div data-v-ef350856 list_title">{{item.ArticleTitle}}</view>
+        <view class="_div data-v-ef350856">
+          <view wx:key="cindex" key="{{cindex}}" wx:for="{{item.Tags}}" wx:for-index="cindex" wx:for-item="c" class="_div data-v-ef350856">
+            <view class="_div data-v-ef350856 list_tag">{{c.TagName}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

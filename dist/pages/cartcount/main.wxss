@@ -1,0 +1,99 @@
+
+.cartcount-area-nodata.data-v-8ccbc2b0 {
+  padding: 70rpx 20rpx 40rpx;
+  text-align: center;
+}
+.cartcount-area-nodata ._p.data-v-8ccbc2b0 {
+  margin: 30rpx auto 60rpx;
+}
+.cartcount-area .gocart__btn.data-v-8ccbc2b0 {
+  width: 160rpx;
+  margin: 0 auto;
+  text-align: center;
+  height: 6vh;
+  line-height: 6vh;
+  background-color: #f04040;
+  color: #fff;
+  border-radius: 10rpx;
+}
+.cartcount-area-datalist.data-v-8ccbc2b0 {
+  padding: 20rpx;
+  border: 2rpx solid #ddd;
+  margin: 10rpx;
+}
+.cartcount-area-datalist-items__item.data-v-8ccbc2b0 {
+  margin: 20rpx;
+  border: 2rpx solid #d8d8d8;
+  background-color: #fff;
+  padding: 20rpx;
+  box-shadow: 0 4rpx 10rpx #efefef;
+  border-radius: 10rpx;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+.cartcount-area-datalist-items__item .item-img .child_image.data-v-8ccbc2b0 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.cartcount-area-datalist-items__item .item-des.data-v-8ccbc2b0 {
+  float: left;
+  width: 290rpx;
+}
+.cartcount-area-datalist-items__item .item-des .item-name.data-v-8ccbc2b0 {
+  font-size: 24rpx;
+  overflow: hidden;
+}
+.cartcount-area-datalist-items__item .itemcount.data-v-8ccbc2b0 {
+  float: right;
+}
+.cartcount-area-datalist-items__item .del-x.data-v-8ccbc2b0 {
+  color: red;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid red;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  right: 6rpx;
+  top: 6rpx;
+}
+.cartcount-area-datalist .total-area.data-v-8ccbc2b0 {
+  margin: 20rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+.cartcount-area-datalist .total-area .totalprice.data-v-8ccbc2b0 {
+  text-align: left;
+  background-color: lightskyblue;
+  border-radius: 10rpx;
+  color: #fff;
+  display: inline-block;
+  min-width: 90rpx;
+  padding: 6rpx;
+}
+.counter-warp.data-v-006ea7a5 {
+  text-align: center;
+}
+.counter-warp .count-area.data-v-006ea7a5 {
+  display: flex;
+}
+.counter-warp .count-area .inputcount.data-v-006ea7a5 {
+  display: inline-block;
+  width: 80rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border: 2rpx solid #ddd;
+  background-color: #fff;
+  margin: 0 16rpx;
+}
+.counter-warp .totalprice.data-v-006ea7a5 {
+  text-align: left;
+  margin-top: 16rpx;
+  background-color: lightskyblue;
+  border-radius: 10rpx;
+  color: #fff;
+  min-width: 120rpx;
+  padding: 6rpx;
+}

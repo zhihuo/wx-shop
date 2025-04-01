@@ -1,0 +1,13 @@
+<template name="9d427b26">
+  <view class="_div data-v-9433c9b6 typelist-area">
+    <view class="_div data-v-9433c9b6 weui-search-bar" id="searchBar">
+      <form class="_form data-v-9433c9b6 weui-search-bar__form">
+        <view class="_div data-v-9433c9b6 weui-search-bar__box">
+          <icon class="_icon data-v-9433c9b6 weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="search" class="_input data-v-9433c9b6 weui-search-bar__input" id="searchInput" placeholder="搜索" value="{{keyword}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+        </view>
+      </form>
+    </view>
+    <view class="_div data-v-9433c9b6 history-list"> 历史记录 </view>
+  </view>
+</template>

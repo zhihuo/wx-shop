@@ -1,0 +1,27 @@
+<template name="57bc625a">
+  <view class="_div data-v-05e9dabc counter-warp">
+    <view class="_div data-v-05e9dabc weui-cells weui-cells_form">
+      <view class="_div data-v-05e9dabc weui-cell">
+        <view class="_div data-v-05e9dabc weui-cell__hd">
+          <label class="_label data-v-05e9dabc weui-label">账户</label>
+        </view>
+        <view class="_div data-v-05e9dabc weui-cell__bd weui-cell_primary">
+          <input type="tel" class="_input data-v-05e9dabc weui-input" placeholder="手机号码" value="{{userInfo.name}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+        </view>
+      </view>
+      <view class="_div data-v-05e9dabc weui-cell">
+        <view class="_div data-v-05e9dabc weui-cell__hd">
+          <label class="_label data-v-05e9dabc weui-label">密码</label>
+        </view>
+        <view class="_div data-v-05e9dabc weui-cell__bd weui-cell_primary">
+          <input type="password" class="_input data-v-05e9dabc weui-input" placeholder="不少于6位" value="{{userInfo.pwd}}" bindinput="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-05e9dabc weui-cells__tips"></view>
+    <view class="_div data-v-05e9dabc weui-btn-area">
+      <view class="_a data-v-05e9dabc weui-btn weui-btn_primary" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">登录</view>
+    </view>
+    <navigator url="/register" class="_a data-v-05e9dabc important-tips">没账户，去注册</navigator>
+  </view>
+</template>

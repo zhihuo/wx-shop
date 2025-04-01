@@ -1,0 +1,10 @@
+<template name="76f880ed">
+  <view class="_div data-v-006ea7a5 counter-warp">
+    <view class="_div data-v-006ea7a5 count-area">
+      <label bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_span data-v-006ea7a5">+</label>
+      <input value="{{count}}" bindinput="handleProxy" placeholder="请输入" class="_input data-v-006ea7a5 inputcount" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+      <label bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_span data-v-006ea7a5">-</label>
+    </view>
+    <view class="_div data-v-006ea7a5 totalprice">价格：¥{{total}}</view>
+  </view>
+</template>

@@ -1,0 +1,8 @@
+<import src="/components/count.vue.wxml" />
+<import src="/components/discover.vue.wxml" />
+<import src="/components/bottomLoadMore.vue.wxml" />
+<import src="/components/bomb_screen.vue.wxml" />
+<import src="/components/card.vue.wxml" />
+<import src="/components/filterbar.vue.wxml" />
+<import src="/components/shopGridList.vue.wxml" />
+<import src="/components/filterSlider.vue.wxml" />

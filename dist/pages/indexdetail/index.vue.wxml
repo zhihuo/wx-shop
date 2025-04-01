@@ -1,0 +1,24 @@
+<import src="/components/filterbar.vue.wxml" />
+<import src="/components/shopGridList.vue.wxml" />
+<template name="10d6b4d8">
+  <view class="_div data-v-13dfffdc detail-area">
+    <view class="_div data-v-13dfffdc item">
+      <view class="_div data-v-13dfffdc img_box">
+        <image class="_image data-v-13dfffdc discover_img" src="http://sujiefs.com/upload/images/20180308/201803081427506631167.jpg"></image>
+      </view>
+      <view class="_div data-v-13dfffdc info">
+        <view class="_div data-v-13dfffdc title">春夏新品</view>
+        <view wx:key="item" key="{{item}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" class="_div data-v-13dfffdc">
+          <view class="_div data-v-13dfffdc doc">
+            <view class="_i data-v-13dfffdc lx">◆</view> {{item.attrName}}: {{item.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-13dfffdc filterbar">
+      <template data="{{...$root[$kk+'0'], $root}}" is="134f9479"></template>
+    </view>
+    <view class="_div data-v-13dfffdc shop_list">
+      <template data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="f77397a8"></template>
+    </view>
+  </view>
+</template>

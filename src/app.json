@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/typelist/main",
+    "pages/goodtypes/main",
+    "pages/login/main",
+    "pages/ucenter/main",
+    "pages/classify/main",
+    "pages/fav/main",
+    "pages/cartcount/main",
+    "pages/cartdetail/main",
+    "pages/indexdetail/main",
+    "pages/search/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "购物平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#b4282d",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "iconPath": "/static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goodtypes/main",
+        "iconPath": "static/images/ic_menu_topic_nor.png",
+        "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/fav/main",
+        "iconPath": "static/images/icon_collect.png",
+        "selectedIconPath": "static/images/icon_collect_checked.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/cartcount/main",
+        "iconPath": "static/images/ic_menu_shoping_nor.png",
+        "selectedIconPath": "static/images/ic_menu_shoping_pressed.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/ucenter/main",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

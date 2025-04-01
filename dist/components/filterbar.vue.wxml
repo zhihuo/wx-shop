@@ -1,0 +1,21 @@
+<import src="/components/filterSlider.vue.wxml" />
+<template name="134f9479">
+  <view class="_div data-v-13639f31 bar">
+    <view class="_div data-v-13639f31 filter">
+      <view data-current="zonghe" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_div data-v-13639f31 {{[currentType == 'zonghe' ? 'nav_active' : 'nav', nav]}}">综合</view>
+      <view data-current="sale" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_div data-v-13639f31 {{[nav, currentType == 'sale' ? 'nav_active' : 'nav']}}">销量</view>
+      <view class="_div data-v-13639f31 grid nav">
+        <view data-current="price" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_div data-v-13639f31 {{[price, currentType == 'price' ? 'nav_active price' : 'nav price']}}">价格</view>
+        <view class="_div data-v-13639f31">
+          <view class="_div data-v-13639f31 {{[  arrow_up,  arrowType == 'desc' ? 'arrow_up_red arrow_up' : 'arrow_up arrow_up_gray nav']}}"></view>
+          <view class="_div data-v-13639f31 {{[  arrow_down,  arrowType == 'asc'    ? 'arrow_down arrow_down_red'    : 'arrow_down arrow_down_gray nav']}}"></view>
+        </view>
+      </view>
+      <view class="_div data-v-13639f31 nav" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+        <label class="_span data-v-13639f31 sx">筛选</label>
+        <view class="_i data-v-13639f31 iconfont icon-filter"></view>
+      </view>
+    </view>
+    <template bindshow="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="a657c5ea"></template>
+  </view>
+</template>

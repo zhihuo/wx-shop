@@ -1,0 +1,6 @@
+<template name="635ef390">
+  <view class="_div data-v-052e6e80 loadMoreGif" wx:if="{{show}}">
+    <image src="../../static/images/loadding.gif" class="_image data-v-052e6e80"></image>
+    <text class="_text data-v-052e6e80">{{message}}</text>
+  </view>
+</template>

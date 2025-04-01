@@ -1,0 +1,19 @@
+<template name="f77397a8">
+  <scroll-view scroll-y="true" class="_scroll-view data-v-bedce318 swiper-item-box">
+    <view class="_div data-v-bedce318 shop_item">
+      <navigator class="_navigator data-v-bedce318 list" wx:key="item" key="{{item}}" url wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-bedce318 image_box">
+          <image src="{{item.thumLogo}}" class="_image data-v-bedce318"></image>
+        </view>
+        <view class="_div data-v-bedce318 goods">
+          <view class="_div data-v-bedce318 product_name">{{item.name}}</view>
+          <view class="_div data-v-bedce318 product_info">
+            <view class="_div data-v-bedce318 cost_price">￥{{item.marketPrice}}</view>
+            <view class="_div data-v-bedce318 price">￥{{item.price}}</view>
+            <view class="_div data-v-bedce318 sale_num">销量{{item.saleCount}}件</view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </scroll-view>
+</template>

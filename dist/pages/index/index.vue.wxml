@@ -1,0 +1,25 @@
+<import src="/components/discover.vue.wxml" />
+<import src="/components/bottomLoadMore.vue.wxml" />
+<import src="/components/bomb_screen.vue.wxml" />
+<template name="4eebac83">
+  <view class="_div data-v-178b466a container">
+    <swiper class="_swiper data-v-178b466a banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+      <swiper-item wx:key="item.id" key="{{item.id}}" wx:for="{{banner}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-178b466a">
+        <navigator url="{{item.link}}" class="_navigator data-v-178b466a">
+          <image src="{{item.image_url}}" background-size="cover" class="_img data-v-178b466a"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+    <view class="_div data-v-178b466a weui-flex search-fixation">
+      <view wx:key="index" key="{{index}}" class="_div data-v-178b466a weui-flex__item" wx:for="{{prefecturelist}}" wx:for-index="index" wx:for-item="item">
+        <navigator url="{{item.url}}" class="_navigator data-v-178b466a placeholder search-fixation__item" hover-class>
+          <image src="{{item.img}}" class="_image data-v-178b466a search-fixation__nav_icon"></image>
+          <view class="_div data-v-178b466a search-fixation-des">{{item.name}}</view>
+        </navigator>
+      </view>
+    </view>
+    <template data="{{...$root[$kk+'1'], $root}}" is="80e8190a"></template>
+    <template data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'2'], $root}}" is="635ef390"></template>
+    <template bindclose="handleProxy" bindcallback="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'3'], $root}}" is="64454f07"></template>
+  </view>
+</template>

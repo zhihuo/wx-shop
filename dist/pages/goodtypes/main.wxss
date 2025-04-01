@@ -1,0 +1,92 @@
+
+.pageClass.data-v-26a85356 {
+  background: #f5f5f5;
+}
+.pageClass .search_read_only.data-v-26a85356 {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 650rpx;
+}
+.pageClass .search_read_only .search_content.data-v-26a85356 {
+  display: flex;
+  align-items: center;
+  border-radius: 100rpx;
+  color: #999;
+  width: 100%;
+  background: #efefef;
+  padding: 0 30rpx;
+  height: 55rpx;
+  margin: 0 auto;
+}
+.pageClass .search_read_only .search_content .search_input.data-v-26a85356 {
+  font-size: 26rpx;
+}
+.pageClass .search_read_only .icon-search.data-v-26a85356 {
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}
+.pageClass .search_read_only .icon-message.data-v-26a85356 {
+  font-size: 50rpx;
+}
+.pageClass .top_search.data-v-26a85356 {
+  padding: 20rpx 0rpx;
+  background: #fff;
+}
+.pageClass .classify.data-v-26a85356 {
+  display: flex;
+  position: relative;
+}
+.pageClass .classify .classify_catetory.data-v-26a85356 {
+  width: 200rpx;
+  position: relative;
+  z-index: 1;
+}
+.pageClass .classify .classify_catetory .name.data-v-26a85356 {
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.pageClass .classify .classify_catetory .active.data-v-26a85356 {
+  border-left: 6rpx solid #ff6a3c;
+  background: #fff;
+  color: #ff6a3c;
+}
+.pageClass .classify .classify_detail.data-v-26a85356 {
+  position: relative;
+  z-index: 999;
+  background: #fff;
+  padding: 30rpx 20rpx 20rpx 60rpx;
+}
+.pageClass .classify .classify_detail .title.data-v-26a85356 {
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 25rpx;
+}
+.pageClass .classify .classify_detail .children.data-v-26a85356 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20rpx 0rpx;
+}
+.pageClass .classify .classify_detail .child_image.data-v-26a85356 {
+  width: 120rpx;
+  height: 120rpx;
+}
+.pageClass .classify .classify_detail .child_name.data-v-26a85356 {
+  font-size: 26rpx;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 170rpx;
+}
+.pageClass .classify .classify_detail .children_item.data-v-26a85356 {
+  height: 200rpx;
+  width: 170rpx;
+  text-align: center;
+}

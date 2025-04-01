@@ -1,0 +1,26 @@
+<template name="a657c5ea">
+  <view wx:if="{{show}}" class="_div data-v-6dc1115a">
+    <view class="_div data-v-6dc1115a filter-slider">
+      <view class="_div data-v-6dc1115a block">
+        <view class="_div data-v-6dc1115a title">尺码</view>
+        <view class="_div data-v-6dc1115a item_box">
+          <view class="_div data-v-6dc1115a item" data-sku="XS" catchtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">XS</view>
+          <view class="_div data-v-6dc1115a item" data-sku="S" catchtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">S</view>
+          <view class="_div data-v-6dc1115a item" data-sku="M" catchtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">M</view>
+          <view class="_div data-v-6dc1115a item" data-sku="L" catchtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">L</view>
+          <view class="_div data-v-6dc1115a item" data-sku="XL" catchtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">XL</view>
+          <view class="_div data-v-6dc1115a item" data-sku="XXL" catchtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">XXL</view>
+        </view>
+      </view>
+      <view class="_div data-v-6dc1115a btn_group">
+        <view class="_div data-v-6dc1115a btn_left_box">
+          <view class="_div data-v-6dc1115a button type_empity">重置</view>
+        </view>
+        <view class="_div data-v-6dc1115a btn_right_box">
+          <view class="_div data-v-6dc1115a button type_yellow" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}">确认</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-6dc1115a modal-overlay modal-overlay-visible" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}"></view>
+  </view>
+</template>

@@ -1,0 +1,26 @@
+<template name="64454f07">
+  <view wx:if="{{show}}" class="_div data-v-a0fce882">
+    <view wx:if="{{types===0}}" class="_div data-v-a0fce882">
+      <view class="_div data-v-a0fce882 pop-alert-box">
+        <image src="../../static/images/icon_alert.png" class="_image data-v-a0fce882 icon_alert" catchtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+        <view class="_i data-v-a0fce882 iconfont icon-close" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></view>
+      </view>
+    </view>
+    <view wx:else class="_div data-v-a0fce882">
+      <view class="_div data-v-a0fce882 pop-alert-box dialog">
+        <view class="_div data-v-a0fce882 alert-content-box">
+          <view class="_div data-v-a0fce882 alert-content">
+            <image src="../../static/images/icon_alert.png" class="_image data-v-a0fce882 icon_alert_dialog"></image>
+            <view class="_div data-v-a0fce882 title">恭喜获得红包</view>
+            <view class="_div data-v-a0fce882 title-doc">恭喜获得一张卡券，已发放至该账号</view>
+          </view>
+          <view class="_div data-v-a0fce882 btn_box">
+            <view class="_div data-v-a0fce882 button type_red" catchtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">点击领取</view>
+          </view>
+        </view>
+        <view class="_i data-v-a0fce882 iconfont icon-close" catchtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"></view>
+      </view>
+    </view>
+    <view class="_div data-v-a0fce882 alert_mask" catchtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}"></view>
+  </view>
+</template>

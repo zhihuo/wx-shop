@@ -1,0 +1,19 @@
+<template name="48b355e8">
+  <view class="_div data-v-5bf47754 typelist-area">
+    <view class="_div data-v-5bf47754 weui-search-bar" id="searchBar">
+      <form class="_form data-v-5bf47754 weui-search-bar__form">
+        <view class="_div data-v-5bf47754 weui-search-bar__box">
+          <icon class="_icon data-v-5bf47754 weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="search" class="_input data-v-5bf47754 weui-search-bar__input" id="searchInput" placeholder="搜索" value="{{keyword}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+        </view>
+      </form>
+    </view>
+    <view class="_div data-v-5bf47754 weui-grids" wx:if="{{copyCollectlist.length >= 1}}">
+      <navigator wx:key="index" key="{{index}}" url="{{item.url}}" class="_navigator data-v-5bf47754 weui-grid search-hot-list__item" hover-class="weui-grid__active" wx:for="{{copyCollectlist}}" wx:for-index="index" wx:for-item="item">
+        <image class="_image data-v-5bf47754 child_image" src="{{item.img}}"></image>
+        <view class="_p data-v-5bf47754 search-hot-list__name" title="{{item.name}}">{{item.name}}</view>
+      </navigator>
+    </view>
+    <view wx:if="{{copyCollectlist.length < 1}}" class="_div data-v-5bf47754"> 暂无收藏 </view>
+  </view>
+</template>
